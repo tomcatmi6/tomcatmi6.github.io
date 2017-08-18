@@ -1,0 +1,42 @@
+
+body {
+    background-color: lightgray;
+}
+h1 {
+    font-size: 60px;
+    margin: 40px;
+    text-align: center;
+    font: violet;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.article {
+    background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(lightyellow), to(lightgreen));
+    background-image: -webkit-linear-gradient(top, lightyellow, lightgreen);
+    background-image: -moz-linear-gradient(top, lightyellow, lightblue);
+    background-image: linear-gradient(to bottom, lightyellow, lightgreen);
+    border: 2px dotted brown;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+    font-family: 'Dancing Script';
+    font-size: 24px;
+    padding: 2%;
+}
+.article>header {
+    font-family: 'Raleway', sans-serif;
+    
+}
+.article>header>h2 {
+    border-left: 10px solid blue;
+}
+.article>footer {
+    font-size: 14px;
+}
+.all {
+    border: 15px solid purple;
+    padding: 2em;
+    margin: 3em;
+
+}
